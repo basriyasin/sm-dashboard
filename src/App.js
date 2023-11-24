@@ -1,9 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import './theme.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Component/Base/Header'
+import PageHeader from './Component/Base/Header';
+import Sidebar from './Component/Base/Sidebar';
 
 function App() {
   return (
     <div className="App">
+      <PageHeader />
+      <Sidebar></Sidebar>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

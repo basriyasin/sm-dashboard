@@ -1,0 +1,53 @@
+Project Spending-management
+
+Database
+- User
+    - id 
+    - name
+    - email
+    - phone
+    - family_id
+    - created_atr
+    - updated_at
+- Family
+    - id
+    - name
+    - monthly_budget
+    - created_at
+    - updated_at
+- UserFamily
+    - id
+    - user_id
+    - family_id
+    - position
+    - created_at
+    - updated_at
+- Category
+    - id
+    - name
+    - type
+    - note
+    - created_at
+    - updated_at
+- Transaction
+    - id
+    - category_id
+    - user_id
+    - family_id
+    - type
+    - amount
+    - transacted_at
+    - created_at
+    - updated_at
+- Summary
+    - id
+    - user_id
+    - family_id
+    - month
+    - year
+    - fund
+    - spend
+    - created_at
+    - updated_at
+
+
